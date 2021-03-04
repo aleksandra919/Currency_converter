@@ -66,7 +66,7 @@ class Calculator extends React.Component {
 
     render() {
         const moneyAmount = this.state.moneyAmount;
-        const currencyToConvert = 
+        const currencyToConvert =
         {
             'EUR': converToEUR(moneyAmount),
             'USD': converToUSD(moneyAmount),
@@ -102,5 +102,5 @@ class App extends Component {
         );
     }
 }
-    
+
 export default App;
